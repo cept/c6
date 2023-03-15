@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* css for header */
+header {
+    width: 100%;
+    height: 65px;
+    background-color: #1e272e;
+    color: #d2dae2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    width: 36px;
+}
+
+.header-list {
+    display: flex;
+}
+
+.header-list ul {
+    display: flex;
+}
+
+.header-list li {
+    font-size: 18px;
+    cursor: pointer;
+    list-style: none;
+    padding: 0 20px;
+}
+
+.header-list .active {
+    color: #0fbcf9;
+}
+
+.header-list li:hover {
+    color: #fff;
+}
+
+.header-list a{
+    text-decoration: none;
+    color: #d2dae2;
+}
+
+.menu-icon {
+    margin-left: 200px;
+}
+
+.header-list a:hover {
+    color: #fff;
+}
+
+.header-list .cart {
+    color: #0fbcf9;
+}
+
+
+/* css for main */
+.main {
+    width: 100%;
+    height: 400px;
+    background-color: #1e272e;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main-desc {
+    margin-top: 50px;
+    margin-right: 200px;
+}
+
+.main-desc h1 {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.main-desc p {
+    font-size: 20px;
+    margin-bottom: 24px;
+    font-weight: lighter;
+}
+
+.main-desc a {
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: #0fbcf9;
+    color: #fff;
+    border-radius: 6px;
+    font-weight: bold;
+    box-shadow: 0 7px #05526e;
+}
+
+.main-desc a:hover {
+    opacity: 0.9;
+}
+
+.main-desc a:active {
+    position: relative;
+    box-shadow: none;
+    top: 7px;
+}
+
+.main-image img {
+    width: 60%;
+}
+
+/* CSS for body */
+.contents{
+    height:500px;
+    margin-top:100px;
+    padding: 0 60px;
+}
+
+.contents h2{
+    margin-bottom: 20px;
+}
+
+.section-litle{
+    border-bottom:2px solid #dee7ec;
+    font-size:30px;
+    padding-bottom:15px;
+    margin-bottom:50px;
+}
+.contents-item{
+    float:left;
+    margin-right:40px;
+}
+.contents-item p{
+    font-size:20px;
+}
