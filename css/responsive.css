@@ -28,6 +28,10 @@
         text-align: center;
     }
 
+    .main-desc {
+        margin: 0;
+    }
+
     .main-image img {
         max-width: 160px;
     }
