@@ -6,21 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>Kelompok C6</title>
 </head>
 <body>
     <header>
-        <div class="header-logo">
-            <img src="image/logoC6.png" alt="logo" class="logo">
-        </div>
-
-        <div class="header-list">
-            <ul>
-                <li class="active">HOME</li>
-                <li>CATEGORY</li>
-                <li>ABOUT</li>
-            </ul>
-            <a href="#"><span class="fa fa-shopping-cart menu-icon"></span> My Cart (<span class="cart">12</span>)</a>
+        <div class="container-header">
+            <div class="header-logo">
+                <img src="image/logoC6.png" alt="logo" class="logo">
+            </div>
+    
+            <span class="fa fa-bars menu-icon"></span>
+            <div class="header-list">
+                <ul>
+                    <li class="active">HOME</li>
+                    <li>CATEGORY</li>
+                    <li>ABOUT</li>
+                </ul>
+                <a href="#"><span class="fa fa-shopping-cart"></span> My Cart (<span class="cart">12</span>)</a>
+            </div>
         </div>
     </header>
 
@@ -60,12 +64,35 @@
         </div>
     </div>
 
-    <div class="form-contact">
+    <div class="clear">
 
+    </div><br>
+
+    <div class="form-contact">
+        <h2 class="contact-litle">Hubungi Kami</h2>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email"><br>
+        <label for="whatsapp">Whatsapp</label><br>
+        <input type="tel" name="whatsapp" id="whatsapp"><br>
+        <label for="pesan">Pesan</label><br>
+        <textarea name="pesan" id="pesan"></textarea><br>
+
+        <input class="contact-submit" type="submit" value="Kirim"/>
     </div>
 
     <footer>
+        <div class="footer-logo">
+            <img src="image/logoC6.png" alt="logo">
+            <p>FGA Intro Frontend Progate - Kelompok C6 Copyright 2023</p>
+        </div>
 
+        <div class="footer-item">
+            <u1>
+                <li>Karir</li>
+                <li>Kemitraan</li>
+                <li>Hubungi Kami</li>
+              </u1>
+        </div>
     </footer>
     
 </body>
